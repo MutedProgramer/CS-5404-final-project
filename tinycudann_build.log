@@ -1,0 +1,550 @@
+Using pip 26.2.2 from C:\Users\ethan\miniconda3\envs\video_to_world_cuda132\lib\site-packages\pip (python 3.10)
+Collecting git+https://github.com/NVlabs/tiny-cuda-nn/#subdirectory=bindings/torch
+  Cloning https://github.com/NVlabs/tiny-cuda-nn/ to C:\Users\ethan\AppData\Local\Temp\pip-req-build-wnrv1xax
+  Running command git version
+  git version 2.56.1.windows.1
+  Running command git clone --filter=blob:none https://github.com/NVlabs/tiny-cuda-nn/ 'C:\Users\ethan\AppData\Local\Temp\pip-req-build-wnrv1xax'
+  Cloning into 'C:\Users\ethan\AppData\Local\Temp\pip-req-build-wnrv1xax'...
+  Updating files:   0% (1/141)
+  Updating files:   1% (2/141)
+  Updating files:   2% (3/141)
+  Updating files:   3% (5/141)
+  Updating files:   4% (6/141)
+  Updating files:   5% (8/141)
+  Updating files:   6% (9/141)
+  Updating files:   7% (10/141)
+  Updating files:   8% (12/141)
+  Updating files:   9% (13/141)
+  Updating files:  10% (15/141)
+  Updating files:  11% (16/141)
+  Updating files:  12% (17/141)
+  Updating files:  13% (19/141)
+  Updating files:  14% (20/141)
+  Updating files:  15% (22/141)
+  Updating files:  16% (23/141)
+  Updating files:  17% (24/141)
+  Updating files:  18% (26/141)
+  Updating files:  19% (27/141)
+  Updating files:  20% (29/141)
+  Updating files:  21% (30/141)
+  Updating files:  22% (32/141)
+  Updating files:  23% (33/141)
+  Updating files:  24% (34/141)
+  Updating files:  25% (36/141)
+  Updating files:  26% (37/141)
+  Updating files:  27% (39/141)
+  Updating files:  28% (40/141)
+  Updating files:  29% (41/141)
+  Updating files:  30% (43/141)
+  Updating files:  31% (44/141)
+  Updating files:  32% (46/141)
+  Updating files:  33% (47/141)
+  Updating files:  34% (48/141)
+  Updating files:  35% (50/141)
+  Updating files:  36% (51/141)
+  Updating files:  37% (53/141)
+  Updating files:  38% (54/141)
+  Updating files:  39% (55/141)
+  Updating files:  40% (57/141)
+  Updating files:  41% (58/141)
+  Updating files:  42% (60/141)
+  Updating files:  43% (61/141)
+  Updating files:  44% (63/141)
+  Updating files:  45% (64/141)
+  Updating files:  46% (65/141)
+  Updating files:  47% (67/141)
+  Updating files:  48% (68/141)
+  Updating files:  49% (70/141)
+  Updating files:  50% (71/141)
+  Updating files:  51% (72/141)
+  Updating files:  52% (74/141)
+  Updating files:  53% (75/141)
+  Updating files:  54% (77/141)
+  Updating files:  55% (78/141)
+  Updating files:  56% (79/141)
+  Updating files:  57% (81/141)
+  Updating files:  58% (82/141)
+  Updating files:  59% (84/141)
+  Updating files:  60% (85/141)
+  Updating files:  61% (87/141)
+  Updating files:  62% (88/141)
+  Updating files:  63% (89/141)
+  Updating files:  64% (91/141)
+  Updating files:  65% (92/141)
+  Updating files:  66% (94/141)
+  Updating files:  67% (95/141)
+  Updating files:  68% (96/141)
+  Updating files:  69% (98/141)
+  Updating files:  70% (99/141)
+  Updating files:  71% (101/141)
+  Updating files:  72% (102/141)
+  Updating files:  73% (103/141)
+  Updating files:  74% (105/141)
+  Updating files:  75% (106/141)
+  Updating files:  76% (108/141)
+  Updating files:  77% (109/141)
+  Updating files:  78% (110/141)
+  Updating files:  79% (112/141)
+  Updating files:  80% (113/141)
+  Updating files:  81% (115/141)
+  Updating files:  82% (116/141)
+  Updating files:  83% (118/141)
+  Updating files:  84% (119/141)
+  Updating files:  85% (120/141)
+  Updating files:  86% (122/141)
+  Updating files:  87% (123/141)
+  Updating files:  88% (125/141)
+  Updating files:  89% (126/141)
+  Updating files:  90% (127/141)
+  Updating files:  91% (129/141)
+  Updating files:  92% (130/141)
+  Updating files:  93% (132/141)
+  Updating files:  94% (133/141)
+  Updating files:  95% (134/141)
+  Updating files:  96% (136/141)
+  Updating files:  97% (137/141)
+  Updating files:  98% (139/141)
+  Updating files:  99% (140/141)
+  Updating files: 100% (141/141)
+  Updating files: 100% (141/141), done.
+  Running command git rev-parse HEAD
+  3daa6e5b8b8e0fa17971a1a20acfbb3754494b38
+  Resolved https://github.com/NVlabs/tiny-cuda-nn/ to commit 3daa6e5b8b8e0fa17971a1a20acfbb3754494b38
+  Running command git submodule update --init --recursive
+  Submodule 'dependencies/cmrc' (https://github.com/vector-of-bool/cmrc) registered for path 'dependencies/cmrc'
+  Submodule 'dependencies/cutlass' (https://github.com/NVIDIA/cutlass) registered for path 'dependencies/cutlass'
+  Submodule 'dependencies/fmt' (https://github.com/fmtlib/fmt) registered for path 'dependencies/fmt'
+  Cloning into 'C:/Users/ethan/AppData/Local/Temp/pip-req-build-wnrv1xax/dependencies/cmrc'...
+  Cloning into 'C:/Users/ethan/AppData/Local/Temp/pip-req-build-wnrv1xax/dependencies/cutlass'...
+  Cloning into 'C:/Users/ethan/AppData/Local/Temp/pip-req-build-wnrv1xax/dependencies/fmt'...
+  Submodule path 'dependencies/cmrc': checked out '952ffddba731fc110bd50409e8d2b8a06abbd237'
+  Submodule path 'dependencies/cutlass': checked out '82f5075946e2569589439d500733b700a3141374'
+  Submodule path 'dependencies/fmt': checked out 'fa2eb2d2e3ec5c21629f8ccd88ae05ec40b963fa'
+  Running command git rev-parse HEAD
+  3daa6e5b8b8e0fa17971a1a20acfbb3754494b38
+  Preparing metadata (pyproject.toml): started
+  Running command Preparing metadata (pyproject.toml)
+  <string>:5: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  nvcc: NVIDIA (R) Cuda compiler driver
+  Copyright (c) 2005-2026 NVIDIA Corporation
+  Built on Fri_May__8_10:57:15_Pacific_Daylight_Time_2026
+  Cuda compilation tools, release 13.2, V13.2.86
+  Build cuda_13.2.r13.2/compiler.37953736_0
+  C:\Users\ethan\miniconda3\envs\video_to_world_cuda132\lib\site-packages\setuptools\dist.py:765: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+  !!
+
+          ********************************************************************************
+          Please consider removing the following classifiers in favor of a SPDX license expression:
+
+          License :: BSD 3-Clause
+
+          See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+          ********************************************************************************
+
+  !!
+    self._finalize_license_expression()
+  Building PyTorch extension for tiny-cuda-nn version 2.0
+  Obtained compute capability 120 from PyTorch
+  Detected CUDA version 13.2
+  Targeting C++ standard 17
+  Auto-detecting TCNN_HALF_PRECISION: ON (Arch: 120)
+  running dist_info
+  creating C:\Users\ethan\AppData\Local\Temp\pip-modern-metadata-on26dgit\tinycudann.egg-info
+  writing C:\Users\ethan\AppData\Local\Temp\pip-modern-metadata-on26dgit\tinycudann.egg-info\PKG-INFO
+  writing dependency_links to C:\Users\ethan\AppData\Local\Temp\pip-modern-metadata-on26dgit\tinycudann.egg-info\dependency_links.txt
+  writing top-level names to C:\Users\ethan\AppData\Local\Temp\pip-modern-metadata-on26dgit\tinycudann.egg-info\top_level.txt
+  writing manifest file 'C:\Users\ethan\AppData\Local\Temp\pip-modern-metadata-on26dgit\tinycudann.egg-info\SOURCES.txt'
+  reading manifest file 'C:\Users\ethan\AppData\Local\Temp\pip-modern-metadata-on26dgit\tinycudann.egg-info\SOURCES.txt'
+  writing manifest file 'C:\Users\ethan\AppData\Local\Temp\pip-modern-metadata-on26dgit\tinycudann.egg-info\SOURCES.txt'
+  creating 'C:\Users\ethan\AppData\Local\Temp\pip-modern-metadata-on26dgit\tinycudann-2.0.dist-info'
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: tinycudann
+  Building wheel for tinycudann (pyproject.toml): started
+  Running command Building wheel for tinycudann (pyproject.toml)
+  <string>:5: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  nvcc: NVIDIA (R) Cuda compiler driver
+  Copyright (c) 2005-2026 NVIDIA Corporation
+  Built on Fri_May__8_10:57:15_Pacific_Daylight_Time_2026
+  Cuda compilation tools, release 13.2, V13.2.86
+  Build cuda_13.2.r13.2/compiler.37953736_0
+  C:\Users\ethan\miniconda3\envs\video_to_world_cuda132\lib\site-packages\setuptools\dist.py:765: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+  !!
+
+          ********************************************************************************
+          Please consider removing the following classifiers in favor of a SPDX license expression:
+
+          License :: BSD 3-Clause
+
+          See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+          ********************************************************************************
+
+  !!
+    self._finalize_license_expression()
+  Building PyTorch extension for tiny-cuda-nn version 2.0
+  Obtained compute capability 120 from PyTorch
+  Detected CUDA version 13.2
+  Targeting C++ standard 17
+  Auto-detecting TCNN_HALF_PRECISION: ON (Arch: 120)
+  running bdist_wheel
+  running build
+  running build_py
+  creating build\lib.win-amd64-cpython-310\tinycudann
+  copying tinycudann\modules.py -> build\lib.win-amd64-cpython-310\tinycudann
+  copying tinycudann\__init__.py -> build\lib.win-amd64-cpython-310\tinycudann
+  running egg_info
+  creating tinycudann.egg-info
+  writing tinycudann.egg-info\PKG-INFO
+  writing dependency_links to tinycudann.egg-info\dependency_links.txt
+  writing top-level names to tinycudann.egg-info\top_level.txt
+  writing manifest file 'tinycudann.egg-info\SOURCES.txt'
+  reading manifest file 'tinycudann.egg-info\SOURCES.txt'
+  writing manifest file 'tinycudann.egg-info\SOURCES.txt'
+  C:\Users\ethan\miniconda3\envs\video_to_world_cuda132\lib\site-packages\setuptools\command\build_py.py:215: _Warning: Package 'tinycudann.rtc.include' is absent from the `packages` configuration.
+  !!
+
+          ********************************************************************************
+          ############################
+          # Package would be ignored #
+          ############################
+          Python recognizes 'tinycudann.rtc.include' as an importable package[^1],
+          but it is absent from setuptools' `packages` configuration.
+
+          This leads to an ambiguous overall configuration. If you want to distribute this
+          package, please make sure that 'tinycudann.rtc.include' is explicitly added
+          to the `packages` configuration field.
+
+          Alternatively, you can also rely on setuptools' discovery methods
+          (for example by using `find_namespace_packages(...)`/`find_namespace:`
+          instead of `find_packages(...)`/`find:`).
+
+          You can read more about "package discovery" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/package_discovery.html
+
+          If you don't want 'tinycudann.rtc.include' to be distributed and are
+          already explicitly excluding 'tinycudann.rtc.include' via
+          `find_namespace_packages(...)/find_namespace` or `find_packages(...)/find`,
+          you can try to use `exclude_package_data`, or `include-package-data=False` in
+          combination with a more fine grained `package-data` configuration.
+
+          You can read more about "package data files" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/datafiles.html
+
+
+          [^1]: For Python, any directory (with suitable naming) can be imported,
+                even if it does not contain any `.py` files.
+                On the other hand, currently there is no concept of package data
+                directory, all directories are treated like packages.
+          ********************************************************************************
+
+  !!
+    check.warn(importable)
+  C:\Users\ethan\miniconda3\envs\video_to_world_cuda132\lib\site-packages\setuptools\command\build_py.py:215: _Warning: Package 'tinycudann.rtc.include.pcg32' is absent from the `packages` configuration.
+  !!
+
+          ********************************************************************************
+          ############################
+          # Package would be ignored #
+          ############################
+          Python recognizes 'tinycudann.rtc.include.pcg32' as an importable package[^1],
+          but it is absent from setuptools' `packages` configuration.
+
+          This leads to an ambiguous overall configuration. If you want to distribute this
+          package, please make sure that 'tinycudann.rtc.include.pcg32' is explicitly added
+          to the `packages` configuration field.
+
+          Alternatively, you can also rely on setuptools' discovery methods
+          (for example by using `find_namespace_packages(...)`/`find_namespace:`
+          instead of `find_packages(...)`/`find:`).
+
+          You can read more about "package discovery" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/package_discovery.html
+
+          If you don't want 'tinycudann.rtc.include.pcg32' to be distributed and are
+          already explicitly excluding 'tinycudann.rtc.include.pcg32' via
+          `find_namespace_packages(...)/find_namespace` or `find_packages(...)/find`,
+          you can try to use `exclude_package_data`, or `include-package-data=False` in
+          combination with a more fine grained `package-data` configuration.
+
+          You can read more about "package data files" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/datafiles.html
+
+
+          [^1]: For Python, any directory (with suitable naming) can be imported,
+                even if it does not contain any `.py` files.
+                On the other hand, currently there is no concept of package data
+                directory, all directories are treated like packages.
+          ********************************************************************************
+
+  !!
+    check.warn(importable)
+  copying tinycudann\bindings.cpp -> build\lib.win-amd64-cpython-310\tinycudann
+  creating build\lib.win-amd64-cpython-310\tinycudann\rtc\include
+  copying tinycudann\rtc\include\cuda_fp16.h -> build\lib.win-amd64-cpython-310\tinycudann\rtc\include
+  copying tinycudann\rtc\include\cuda_fp16.hpp -> build\lib.win-amd64-cpython-310\tinycudann\rtc\include
+  copying tinycudann\rtc\include\vector_functions.h -> build\lib.win-amd64-cpython-310\tinycudann\rtc\include
+  copying tinycudann\rtc\include\vector_functions.hpp -> build\lib.win-amd64-cpython-310\tinycudann\rtc\include
+  copying tinycudann\rtc\include\vector_types.h -> build\lib.win-amd64-cpython-310\tinycudann\rtc\include
+  creating build\lib.win-amd64-cpython-310\tinycudann\rtc\include\pcg32
+  copying tinycudann\rtc\include\pcg32\LICENSE.txt -> build\lib.win-amd64-cpython-310\tinycudann\rtc\include\pcg32
+  copying tinycudann\rtc\include\pcg32\pcg32.h -> build\lib.win-amd64-cpython-310\tinycudann\rtc\include\pcg32
+  creating build\lib.win-amd64-cpython-310\tinycudann\rtc\include\tiny-cuda-nn
+  copying tinycudann\rtc\include\tiny-cuda-nn\common.h -> build\lib.win-amd64-cpython-310\tinycudann\rtc\include\tiny-cuda-nn
+  copying tinycudann\rtc\include\tiny-cuda-nn\common_device.h -> build\lib.win-amd64-cpython-310\tinycudann\rtc\include\tiny-cuda-nn
+  copying tinycudann\rtc\include\tiny-cuda-nn\common_host.h -> build\lib.win-amd64-cpython-310\tinycudann\rtc\include\tiny-cuda-nn
+  copying tinycudann\rtc\include\tiny-cuda-nn\config.h -> build\lib.win-amd64-cpython-310\tinycudann\rtc\include\tiny-cuda-nn
+  copying tinycudann\rtc\include\tiny-cuda-nn\cpp_api.h -> build\lib.win-amd64-cpython-310\tinycudann\rtc\include\tiny-cuda-nn
+  copying tinycudann\rtc\include\tiny-cuda-nn\cuda_graph.h -> build\lib.win-amd64-cpython-310\tinycudann\rtc\include\tiny-cuda-nn
+  copying tinycudann\rtc\include\tiny-cuda-nn\cutlass_matmul.h -> build\lib.win-amd64-cpython-310\tinycudann\rtc\include\tiny-cuda-nn
+  copying tinycudann\rtc\include\tiny-cuda-nn\encoding.h -> build\lib.win-amd64-cpython-310\tinycudann\rtc\include\tiny-cuda-nn
+  copying tinycudann\rtc\include\tiny-cuda-nn\gpu_matrix.h -> build\lib.win-amd64-cpython-310\tinycudann\rtc\include\tiny-cuda-nn
+  copying tinycudann\rtc\include\tiny-cuda-nn\gpu_memory.h -> build\lib.win-amd64-cpython-310\tinycudann\rtc\include\tiny-cuda-nn
+  copying tinycudann\rtc\include\tiny-cuda-nn\gpu_memory_json.h -> build\lib.win-amd64-cpython-310\tinycudann\rtc\include\tiny-cuda-nn
+  copying tinycudann\rtc\include\tiny-cuda-nn\loss.h -> build\lib.win-amd64-cpython-310\tinycudann\rtc\include\tiny-cuda-nn
+  copying tinycudann\rtc\include\tiny-cuda-nn\matrix_layout.h -> build\lib.win-amd64-cpython-310\tinycudann\rtc\include\tiny-cuda-nn
+  copying tinycudann\rtc\include\tiny-cuda-nn\ministd.h -> build\lib.win-amd64-cpython-310\tinycudann\rtc\include\tiny-cuda-nn
+  copying tinycudann\rtc\include\tiny-cuda-nn\mma.h -> build\lib.win-amd64-cpython-310\tinycudann\rtc\include\tiny-cuda-nn
+  copying tinycudann\rtc\include\tiny-cuda-nn\multi_stream.h -> build\lib.win-amd64-cpython-310\tinycudann\rtc\include\tiny-cuda-nn
+  copying tinycudann\rtc\include\tiny-cuda-nn\network.h -> build\lib.win-amd64-cpython-310\tinycudann\rtc\include\tiny-cuda-nn
+  copying tinycudann\rtc\include\tiny-cuda-nn\network_with_input_encoding.h -> build\lib.win-amd64-cpython-310\tinycudann\rtc\include\tiny-cuda-nn
+  copying tinycudann\rtc\include\tiny-cuda-nn\object.h -> build\lib.win-amd64-cpython-310\tinycudann\rtc\include\tiny-cuda-nn
+  copying tinycudann\rtc\include\tiny-cuda-nn\optimizer.h -> build\lib.win-amd64-cpython-310\tinycudann\rtc\include\tiny-cuda-nn
+  copying tinycudann\rtc\include\tiny-cuda-nn\random.h -> build\lib.win-amd64-cpython-310\tinycudann\rtc\include\tiny-cuda-nn
+  copying tinycudann\rtc\include\tiny-cuda-nn\reduce_sum.h -> build\lib.win-amd64-cpython-310\tinycudann\rtc\include\tiny-cuda-nn
+  copying tinycudann\rtc\include\tiny-cuda-nn\rtc_kernel.h -> build\lib.win-amd64-cpython-310\tinycudann\rtc\include\tiny-cuda-nn
+  copying tinycudann\rtc\include\tiny-cuda-nn\trainer.h -> build\lib.win-amd64-cpython-310\tinycudann\rtc\include\tiny-cuda-nn
+  copying tinycudann\rtc\include\tiny-cuda-nn\vec.h -> build\lib.win-amd64-cpython-310\tinycudann\rtc\include\tiny-cuda-nn
+  copying tinycudann\rtc\include\tiny-cuda-nn\vec_json.h -> build\lib.win-amd64-cpython-310\tinycudann\rtc\include\tiny-cuda-nn
+  copying tinycudann\rtc\include\tiny-cuda-nn\vec_pybind11.h -> build\lib.win-amd64-cpython-310\tinycudann\rtc\include\tiny-cuda-nn
+  copying tinycudann\rtc\include\cuda_fp16.h -> build\lib.win-amd64-cpython-310\tinycudann\rtc\include
+  copying tinycudann\rtc\include\cuda_fp16.hpp -> build\lib.win-amd64-cpython-310\tinycudann\rtc\include
+  copying tinycudann\rtc\include\vector_functions.h -> build\lib.win-amd64-cpython-310\tinycudann\rtc\include
+  copying tinycudann\rtc\include\vector_functions.hpp -> build\lib.win-amd64-cpython-310\tinycudann\rtc\include
+  copying tinycudann\rtc\include\vector_types.h -> build\lib.win-amd64-cpython-310\tinycudann\rtc\include
+  copying tinycudann\rtc\include\pcg32\LICENSE.txt -> build\lib.win-amd64-cpython-310\tinycudann\rtc\include\pcg32
+  copying tinycudann\rtc\include\pcg32\pcg32.h -> build\lib.win-amd64-cpython-310\tinycudann\rtc\include\pcg32
+  copying tinycudann\rtc\include\tiny-cuda-nn\common.h -> build\lib.win-amd64-cpython-310\tinycudann\rtc\include\tiny-cuda-nn
+  copying tinycudann\rtc\include\tiny-cuda-nn\common_device.h -> build\lib.win-amd64-cpython-310\tinycudann\rtc\include\tiny-cuda-nn
+  copying tinycudann\rtc\include\tiny-cuda-nn\common_host.h -> build\lib.win-amd64-cpython-310\tinycudann\rtc\include\tiny-cuda-nn
+  copying tinycudann\rtc\include\tiny-cuda-nn\config.h -> build\lib.win-amd64-cpython-310\tinycudann\rtc\include\tiny-cuda-nn
+  copying tinycudann\rtc\include\tiny-cuda-nn\cpp_api.h -> build\lib.win-amd64-cpython-310\tinycudann\rtc\include\tiny-cuda-nn
+  copying tinycudann\rtc\include\tiny-cuda-nn\cuda_graph.h -> build\lib.win-amd64-cpython-310\tinycudann\rtc\include\tiny-cuda-nn
+  copying tinycudann\rtc\include\tiny-cuda-nn\cutlass_matmul.h -> build\lib.win-amd64-cpython-310\tinycudann\rtc\include\tiny-cuda-nn
+  copying tinycudann\rtc\include\tiny-cuda-nn\encoding.h -> build\lib.win-amd64-cpython-310\tinycudann\rtc\include\tiny-cuda-nn
+  copying tinycudann\rtc\include\tiny-cuda-nn\gpu_matrix.h -> build\lib.win-amd64-cpython-310\tinycudann\rtc\include\tiny-cuda-nn
+  copying tinycudann\rtc\include\tiny-cuda-nn\gpu_memory.h -> build\lib.win-amd64-cpython-310\tinycudann\rtc\include\tiny-cuda-nn
+  copying tinycudann\rtc\include\tiny-cuda-nn\gpu_memory_json.h -> build\lib.win-amd64-cpython-310\tinycudann\rtc\include\tiny-cuda-nn
+  copying tinycudann\rtc\include\tiny-cuda-nn\loss.h -> build\lib.win-amd64-cpython-310\tinycudann\rtc\include\tiny-cuda-nn
+  copying tinycudann\rtc\include\tiny-cuda-nn\matrix_layout.h -> build\lib.win-amd64-cpython-310\tinycudann\rtc\include\tiny-cuda-nn
+  copying tinycudann\rtc\include\tiny-cuda-nn\ministd.h -> build\lib.win-amd64-cpython-310\tinycudann\rtc\include\tiny-cuda-nn
+  copying tinycudann\rtc\include\tiny-cuda-nn\mma.h -> build\lib.win-amd64-cpython-310\tinycudann\rtc\include\tiny-cuda-nn
+  copying tinycudann\rtc\include\tiny-cuda-nn\multi_stream.h -> build\lib.win-amd64-cpython-310\tinycudann\rtc\include\tiny-cuda-nn
+  copying tinycudann\rtc\include\tiny-cuda-nn\network.h -> build\lib.win-amd64-cpython-310\tinycudann\rtc\include\tiny-cuda-nn
+  copying tinycudann\rtc\include\tiny-cuda-nn\network_with_input_encoding.h -> build\lib.win-amd64-cpython-310\tinycudann\rtc\include\tiny-cuda-nn
+  copying tinycudann\rtc\include\tiny-cuda-nn\object.h -> build\lib.win-amd64-cpython-310\tinycudann\rtc\include\tiny-cuda-nn
+  copying tinycudann\rtc\include\tiny-cuda-nn\optimizer.h -> build\lib.win-amd64-cpython-310\tinycudann\rtc\include\tiny-cuda-nn
+  copying tinycudann\rtc\include\tiny-cuda-nn\random.h -> build\lib.win-amd64-cpython-310\tinycudann\rtc\include\tiny-cuda-nn
+  copying tinycudann\rtc\include\tiny-cuda-nn\reduce_sum.h -> build\lib.win-amd64-cpython-310\tinycudann\rtc\include\tiny-cuda-nn
+  copying tinycudann\rtc\include\tiny-cuda-nn\rtc_kernel.h -> build\lib.win-amd64-cpython-310\tinycudann\rtc\include\tiny-cuda-nn
+  copying tinycudann\rtc\include\tiny-cuda-nn\trainer.h -> build\lib.win-amd64-cpython-310\tinycudann\rtc\include\tiny-cuda-nn
+  copying tinycudann\rtc\include\tiny-cuda-nn\vec.h -> build\lib.win-amd64-cpython-310\tinycudann\rtc\include\tiny-cuda-nn
+  copying tinycudann\rtc\include\tiny-cuda-nn\vec_json.h -> build\lib.win-amd64-cpython-310\tinycudann\rtc\include\tiny-cuda-nn
+  copying tinycudann\rtc\include\tiny-cuda-nn\vec_pybind11.h -> build\lib.win-amd64-cpython-310\tinycudann\rtc\include\tiny-cuda-nn
+  running build_ext
+  W1117 15:51:58.423000 6136 site-packages\torch\utils\cpp_extension.py:611] Error checking compiler version for cl
+  W1117 15:51:58.423000 6136 site-packages\torch\utils\cpp_extension.py:611] Traceback (most recent call last):
+  W1117 15:51:58.423000 6136 site-packages\torch\utils\cpp_extension.py:611]   File "C:\Users\ethan\miniconda3\envs\video_to_world_cuda132\lib\site-packages\torch\utils\cpp_extension.py", line 607, in get_compiler_abi_compatibility_and_version
+  W1117 15:51:58.423000 6136 site-packages\torch\utils\cpp_extension.py:611]     compiler_info = subprocess.check_output(compiler, stderr=subprocess.STDOUT)
+  W1117 15:51:58.423000 6136 site-packages\torch\utils\cpp_extension.py:611]   File "C:\Users\ethan\miniconda3\envs\video_to_world_cuda132\lib\subprocess.py", line 421, in check_output
+  W1117 15:51:58.423000 6136 site-packages\torch\utils\cpp_extension.py:611]     return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  W1117 15:51:58.423000 6136 site-packages\torch\utils\cpp_extension.py:611]   File "C:\Users\ethan\miniconda3\envs\video_to_world_cuda132\lib\subprocess.py", line 526, in run
+  W1117 15:51:58.423000 6136 site-packages\torch\utils\cpp_extension.py:611]     raise CalledProcessError(retcode, process.args,
+  W1117 15:51:58.423000 6136 site-packages\torch\utils\cpp_extension.py:611] subprocess.CalledProcessError: Command 'cl' returned non-zero exit status 2.
+  building 'tinycudann_bindings._120_C' extension
+  creating C:\Users\ethan\AppData\Local\Temp\pip-req-build-wnrv1xax\bindings\torch\build\temp.win-amd64-cpython-310\Release\..\..\dependencies\fmt\src
+  creating C:\Users\ethan\AppData\Local\Temp\pip-req-build-wnrv1xax\bindings\torch\build\temp.win-amd64-cpython-310\Release\..\..\src
+  creating C:\Users\ethan\AppData\Local\Temp\pip-req-build-wnrv1xax\bindings\torch\build\temp.win-amd64-cpython-310\Release\tinycudann
+  W1117 15:52:00.039000 6136 site-packages\torch\utils\cpp_extension.py:611] Error checking compiler version for cl
+  W1117 15:52:00.039000 6136 site-packages\torch\utils\cpp_extension.py:611] Traceback (most recent call last):
+  W1117 15:52:00.039000 6136 site-packages\torch\utils\cpp_extension.py:611]   File "C:\Users\ethan\miniconda3\envs\video_to_world_cuda132\lib\site-packages\torch\utils\cpp_extension.py", line 607, in get_compiler_abi_compatibility_and_version
+  W1117 15:52:00.039000 6136 site-packages\torch\utils\cpp_extension.py:611]     compiler_info = subprocess.check_output(compiler, stderr=subprocess.STDOUT)
+  W1117 15:52:00.039000 6136 site-packages\torch\utils\cpp_extension.py:611]   File "C:\Users\ethan\miniconda3\envs\video_to_world_cuda132\lib\subprocess.py", line 421, in check_output
+  W1117 15:52:00.039000 6136 site-packages\torch\utils\cpp_extension.py:611]     return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  W1117 15:52:00.039000 6136 site-packages\torch\utils\cpp_extension.py:611]   File "C:\Users\ethan\miniconda3\envs\video_to_world_cuda132\lib\subprocess.py", line 526, in run
+  W1117 15:52:00.039000 6136 site-packages\torch\utils\cpp_extension.py:611]     raise CalledProcessError(retcode, process.args,
+  W1117 15:52:00.039000 6136 site-packages\torch\utils\cpp_extension.py:611] subprocess.CalledProcessError: Command 'cl' returned non-zero exit status 2.
+  [1/11] cl /showIncludes /nologo /O2 /W3 /GL /DNDEBUG /MD -IC:\Users\ethan\AppData\Local\Temp\pip-req-build-wnrv1xax/include -IC:\Users\ethan\AppData\Local\Temp\pip-req-build-wnrv1xax/dependencies -IC:\Users\ethan\AppData\Local\Temp\pip-req-build-wnrv1xax/dependencies/cutlass/include -IC:\Users\ethan\AppData\Local\Temp\pip-req-build-wnrv1xax/dependencies/cutlass/tools/util/include -IC:\Users\ethan\AppData\Local\Temp\pip-req-build-wnrv1xax/dependencies/fmt/include -IC:\Users\ethan\miniconda3\envs\video_to_world_cuda132\lib\site-packages\torch\include -IC:\Users\ethan\miniconda3\envs\video_to_world_cuda132\lib\site-packages\torch\include\torch\csrc\api\include "-IC:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.2\include" -IC:\Users\ethan\miniconda3\envs\video_to_world_cuda132\include -IC:\Users\ethan\miniconda3\envs\video_to_world_cuda132\Include "-IC:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.44.35207\include" "-IC:\Program Files\Microsoft Visual Studio\18\Community\VC\Auxiliary\VS\include" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt" "-IC:\Program Files\Microsoft Visual Studio\18\Community\VC\Auxiliary\VS\include" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt" "-IC:\Program Files\Microsoft Visual Studio\18\Community\VC\Auxiliary\VS\include" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt" /MD /wd4819 /wd4251 /wd4244 /wd4267 /wd4275 /wd4018 /wd4190 /wd4624 /wd4067 /wd4068 /EHsc -c C:\Users\ethan\AppData\Local\Temp\pip-req-build-wnrv1xax\dependencies\fmt\src\format.cc /FoC:\Users\ethan\AppData\Local\Temp\pip-req-build-wnrv1xax\bindings\torch\build\dependencies\fmt\src\format.obj /std:c++17 -DTCNN_PARAMS_UNALIGNED -DTCNN_RTC -DTCNN_RTC_USE_FAST_MATH -DTCNN_HALF_PRECISION=1 -DTCNN_MIN_GPU_ARCH=120 -DTORCH_API_INCLUDE_EXTENSION_H -DTORCH_EXTENSION_NAME=_120_C
+  cl : Command line warning D9025 : overriding '/std:c++20' with '/std:c++17'
+  [2/11] cl /showIncludes /nologo /O2 /W3 /GL /DNDEBUG /MD -IC:\Users\ethan\AppData\Local\Temp\pip-req-build-wnrv1xax/include -IC:\Users\ethan\AppData\Local\Temp\pip-req-build-wnrv1xax/dependencies -IC:\Users\ethan\AppData\Local\Temp\pip-req-build-wnrv1xax/dependencies/cutlass/include -IC:\Users\ethan\AppData\Local\Temp\pip-req-build-wnrv1xax/dependencies/cutlass/tools/util/include -IC:\Users\ethan\AppData\Local\Temp\pip-req-build-wnrv1xax/dependencies/fmt/include -IC:\Users\ethan\miniconda3\envs\video_to_world_cuda132\lib\site-packages\torch\include -IC:\Users\ethan\miniconda3\envs\video_to_world_cuda132\lib\site-packages\torch\include\torch\csrc\api\include "-IC:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.2\include" -IC:\Users\ethan\miniconda3\envs\video_to_world_cuda132\include -IC:\Users\ethan\miniconda3\envs\video_to_world_cuda132\Include "-IC:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.44.35207\include" "-IC:\Program Files\Microsoft Visual Studio\18\Community\VC\Auxiliary\VS\include" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt" "-IC:\Program Files\Microsoft Visual Studio\18\Community\VC\Auxiliary\VS\include" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt" "-IC:\Program Files\Microsoft Visual Studio\18\Community\VC\Auxiliary\VS\include" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt" /MD /wd4819 /wd4251 /wd4244 /wd4267 /wd4275 /wd4018 /wd4190 /wd4624 /wd4067 /wd4068 /EHsc -c C:\Users\ethan\AppData\Local\Temp\pip-req-build-wnrv1xax\dependencies\fmt\src\os.cc /FoC:\Users\ethan\AppData\Local\Temp\pip-req-build-wnrv1xax\bindings\torch\build\dependencies\fmt\src\os.obj /std:c++17 -DTCNN_PARAMS_UNALIGNED -DTCNN_RTC -DTCNN_RTC_USE_FAST_MATH -DTCNN_HALF_PRECISION=1 -DTCNN_MIN_GPU_ARCH=120 -DTORCH_API_INCLUDE_EXTENSION_H -DTORCH_EXTENSION_NAME=_120_C
+  cl : Command line warning D9025 : overriding '/std:c++20' with '/std:c++17'
+  [3/11] "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.2\bin\nvcc" -MD -MF C:\Users\ethan\AppData\Local\Temp\pip-req-build-wnrv1xax\bindings\torch\build\src\common_host.obj.d -std=c++20 -Xcompiler /MD -Xcompiler /wd4819 -Xcompiler /wd4251 -Xcompiler /wd4244 -Xcompiler /wd4267 -Xcompiler /wd4275 -Xcompiler /wd4018 -Xcompiler /wd4190 -Xcompiler /wd4624 -Xcompiler /wd4067 -Xcompiler /wd4068 -Xcompiler /EHsc --use-local-env -Xcudafe --diag_suppress=base_class_has_different_dll_interface -Xcudafe --diag_suppress=field_without_dll_interface -Xcudafe --diag_suppress=dll_interface_conflict_none_assumed -Xcudafe --diag_suppress=dll_interface_conflict_dllexport_assumed -IC:\Users\ethan\AppData\Local\Temp\pip-req-build-wnrv1xax/include -IC:\Users\ethan\AppData\Local\Temp\pip-req-build-wnrv1xax/dependencies -IC:\Users\ethan\AppData\Local\Temp\pip-req-build-wnrv1xax/dependencies/cutlass/include -IC:\Users\ethan\AppData\Local\Temp\pip-req-build-wnrv1xax/dependencies/cutlass/tools/util/include -IC:\Users\ethan\AppData\Local\Temp\pip-req-build-wnrv1xax/dependencies/fmt/include -IC:\Users\ethan\miniconda3\envs\video_to_world_cuda132\lib\site-packages\torch\include -IC:\Users\ethan\miniconda3\envs\video_to_world_cuda132\lib\site-packages\torch\include\torch\csrc\api\include "-IC:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.2\include" -IC:\Users\ethan\miniconda3\envs\video_to_world_cuda132\include -IC:\Users\ethan\miniconda3\envs\video_to_world_cuda132\Include "-IC:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.44.35207\include" "-IC:\Program Files\Microsoft Visual Studio\18\Community\VC\Auxiliary\VS\include" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt" "-IC:\Program Files\Microsoft Visual Studio\18\Community\VC\Auxiliary\VS\include" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt" "-IC:\Program Files\Microsoft Visual Studio\18\Community\VC\Auxiliary\VS\include" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt" -c C:\Users\ethan\AppData\Local\Temp\pip-req-build-wnrv1xax\src\common_host.cu -o C:\Users\ethan\AppData\Local\Temp\pip-req-build-wnrv1xax\bindings\torch\build\src\common_host.obj -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_BFLOAT16_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ --expt-relaxed-constexpr -std=c++17 --extended-lambda --use_fast_math --expt-relaxed-constexpr -U__CUDA_NO_HALF_OPERATORS__ -U__CUDA_NO_HALF_CONVERSIONS__ -U__CUDA_NO_HALF2_OPERATORS__ -gencode=arch=compute_120,code=compute_120 -gencode=arch=compute_120,code=sm_120 -DTCNN_PARAMS_UNALIGNED -DTCNN_RTC -DTCNN_RTC_USE_FAST_MATH -DTCNN_HALF_PRECISION=1 -DTCNN_MIN_GPU_ARCH=120 -DTORCH_API_INCLUDE_EXTENSION_H -DTORCH_EXTENSION_NAME=_120_C
+  FAILED: [code=1] C:/Users/ethan/AppData/Local/Temp/pip-req-build-wnrv1xax/bindings/torch/build/src/common_host.obj
+  "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.2\bin\nvcc" -MD -MF C:\Users\ethan\AppData\Local\Temp\pip-req-build-wnrv1xax\bindings\torch\build\src\common_host.obj.d -std=c++20 -Xcompiler /MD -Xcompiler /wd4819 -Xcompiler /wd4251 -Xcompiler /wd4244 -Xcompiler /wd4267 -Xcompiler /wd4275 -Xcompiler /wd4018 -Xcompiler /wd4190 -Xcompiler /wd4624 -Xcompiler /wd4067 -Xcompiler /wd4068 -Xcompiler /EHsc --use-local-env -Xcudafe --diag_suppress=base_class_has_different_dll_interface -Xcudafe --diag_suppress=field_without_dll_interface -Xcudafe --diag_suppress=dll_interface_conflict_none_assumed -Xcudafe --diag_suppress=dll_interface_conflict_dllexport_assumed -IC:\Users\ethan\AppData\Local\Temp\pip-req-build-wnrv1xax/include -IC:\Users\ethan\AppData\Local\Temp\pip-req-build-wnrv1xax/dependencies -IC:\Users\ethan\AppData\Local\Temp\pip-req-build-wnrv1xax/dependencies/cutlass/include -IC:\Users\ethan\AppData\Local\Temp\pip-req-build-wnrv1xax/dependencies/cutlass/tools/util/include -IC:\Users\ethan\AppData\Local\Temp\pip-req-build-wnrv1xax/dependencies/fmt/include -IC:\Users\ethan\miniconda3\envs\video_to_world_cuda132\lib\site-packages\torch\include -IC:\Users\ethan\miniconda3\envs\video_to_world_cuda132\lib\site-packages\torch\include\torch\csrc\api\include "-IC:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.2\include" -IC:\Users\ethan\miniconda3\envs\video_to_world_cuda132\include -IC:\Users\ethan\miniconda3\envs\video_to_world_cuda132\Include "-IC:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.44.35207\include" "-IC:\Program Files\Microsoft Visual Studio\18\Community\VC\Auxiliary\VS\include" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt" "-IC:\Program Files\Microsoft Visual Studio\18\Community\VC\Auxiliary\VS\include" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt" "-IC:\Program Files\Microsoft Visual Studio\18\Community\VC\Auxiliary\VS\include" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt" -c C:\Users\ethan\AppData\Local\Temp\pip-req-build-wnrv1xax\src\common_host.cu -o C:\Users\ethan\AppData\Local\Temp\pip-req-build-wnrv1xax\bindings\torch\build\src\common_host.obj -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_BFLOAT16_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ --expt-relaxed-constexpr -std=c++17 --extended-lambda --use_fast_math --expt-relaxed-constexpr -U__CUDA_NO_HALF_OPERATORS__ -U__CUDA_NO_HALF_CONVERSIONS__ -U__CUDA_NO_HALF2_OPERATORS__ -gencode=arch=compute_120,code=compute_120 -gencode=arch=compute_120,code=sm_120 -DTCNN_PARAMS_UNALIGNED -DTCNN_RTC -DTCNN_RTC_USE_FAST_MATH -DTCNN_HALF_PRECISION=1 -DTCNN_MIN_GPU_ARCH=120 -DTORCH_API_INCLUDE_EXTENSION_H -DTORCH_EXTENSION_NAME=_120_C
+  cl : Command line warning D9025 : overriding '/D__CUDA_NO_HALF_OPERATORS__' with '/U__CUDA_NO_HALF_OPERATORS__'
+  cl : Command line warning D9025 : overriding '/D__CUDA_NO_HALF_CONVERSIONS__' with '/U__CUDA_NO_HALF_CONVERSIONS__'
+  cl : Command line warning D9025 : overriding '/D__CUDA_NO_HALF2_OPERATORS__' with '/U__CUDA_NO_HALF2_OPERATORS__'
+  common_host.cu
+  cl : Command line warning D9025 : overriding '/D__CUDA_NO_HALF_OPERATORS__' with '/U__CUDA_NO_HALF_OPERATORS__'
+  cl : Command line warning D9025 : overriding '/D__CUDA_NO_HALF_CONVERSIONS__' with '/U__CUDA_NO_HALF_CONVERSIONS__'
+  cl : Command line warning D9025 : overriding '/D__CUDA_NO_HALF2_OPERATORS__' with '/U__CUDA_NO_HALF2_OPERATORS__'
+  common_host.cu
+  C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.44.35207/include\functional(880): error: call to consteval function "std::invoke(_Callable &&)->decltype((<expression>)) [with _Callable=lambda []()->void &]" did not produce a valid constant expression
+                (void) ::std:: invoke(_Callee, ::std:: forward<_Types>(_Args)...);
+                                     ^
+  Note #2767-D: the value of *this cannot be used as a constant
+            detected during:
+              instantiation of "_Rx std::_Func_impl_no_alloc<_Callable, _Rx, _Types...>::_Do_call(_Types &&...) [with _Callable=lambda []()->void, _Rx=void, _Types=<>]" at line 855
+              instantiation of "std::_Func_impl_no_alloc<_Callable, _Rx, _Types...>::_Func_impl_no_alloc(_Other &&) [with _Callable=lambda []()->void, _Rx=void, _Types=<>, _Other=lambda []()->void, <unnamed>=0]" at line 978
+              instantiation of "void std::_Func_class<_Ret, _Types...>::_Reset(_Fx &&) [with _Ret=void, _Types=<>, _Fx=lambda []()->void]" at line 1106
+              instantiation of "std::function<_Fty>::function(_Fx &&) [with _Fty=void (), _Fx=lambda []()->void, <unnamed>=0]" at line 98 of C:/Users/ethan/AppData/Local/Temp/pip-req-build-wnrv1xax/include\tiny-cuda-nn/cuda_graph.h
+
+  C:/Users/ethan/AppData/Local/Temp/pip-req-build-wnrv1xax/include\tiny-cuda-nn/gpu_memory.h(143): error: call to consteval function "fmt::v9::basic_format_string<Char, Args...>::basic_format_string(const S &) [with Char=char, Args=<const char *>, S=char [123], <unnamed>=0]" did not produce a valid constant expression
+                do { cudaError_t _result = cudaFree(rawptr); if (_result != cudaSuccess) throw std::runtime_error{fmt::format("C:/Users/ethan/AppData/Local/Temp/pip-req-build-wnrv1xax/include\\tiny-cuda-nn/gpu_memory.h" ":" "143" " " "cudaFree(rawptr)" " failed: {}", cudaGetErrorString(_result))}; } while(0) ;
+                                                                                                                              ^
+  C:\Users\ethan\AppData\Local\Temp\pip-req-build-wnrv1xax\dependencies\fmt\include\fmt\core.h(344): note #2703-D: cannot call non-constexpr function "fmt::v9::detail::ignore_unused(const T &...) [with T=<__nv_bool>]" (declared at line 339 of C:\Users\ethan\AppData\Local\Temp\pip-req-build-wnrv1xax\dependencies\fmt\include\fmt\core.h)
+      ignore_unused(default_value);
+      ^
+  C:\Users\ethan\AppData\Local\Temp\pip-req-build-wnrv1xax\dependencies\fmt\include\fmt\core.h(452): note #2693-D: called from:
+                                      !detail::is_constant_evaluated(true))
+                                                                    ^
+  C:\Users\ethan\AppData\Local\Temp\pip-req-build-wnrv1xax\dependencies\fmt\include\fmt\core.h(3105): note #2693-D: called from:
+      consteval inline basic_format_string(const S& s) : str_(s) {
+                       ^
+            detected during:
+              instantiation of "fmt::v9::basic_format_string<Char, Args...>::basic_format_string(fmt::v9::basic_runtime<Char>) [with Char=char, Args=<std::string>]" at line 59 of C:/Users/ethan/AppData/Local/Temp/pip-req-build-wnrv1xax/include\tiny-cuda-nn/common_host.h
+              instantiation of "void tcnn::log(tcnn::LogSeverity, const std::string &, Ts &&...) [with Ts=<std::string>]" at line 63 of C:/Users/ethan/AppData/Local/Temp/pip-req-build-wnrv1xax/include\tiny-cuda-nn/common_host.h
+              instantiation of "void tcnn::log_debug(const std::string &, Ts &&...) [with Ts=<std::string>]" at line 119
+              instantiation of "void tcnn::GPUMemory<T>::allocate_memory(size_t) [with T=uint8_t]" at line 184
+              instantiation of "void tcnn::GPUMemory<T>::resize(size_t) [with T=uint8_t]" at line 73
+              instantiation of "tcnn::GPUMemory<T>::GPUMemory(size_t, __nv_bool) [with T=uint8_t]" at line 333
+              instantiation of "tcnn::GPUMemory<T> tcnn::GPUMemory<T>::copy(size_t) const [with T=uint8_t]" at line 547
+
+  C:/Users/ethan/AppData/Local/Temp/pip-req-build-wnrv1xax/include\tiny-cuda-nn/gpu_memory.h(123): error: call to consteval function "fmt::v9::basic_format_string<Char, Args...>::basic_format_string(const S &) [with Char=char, Args=<const char *>, S=char [169], <unnamed>=0]" did not produce a valid constant expression
+                        do { cudaError_t _result = cudaMallocManaged((void**)&rawptr, n_bytes+0*2); if (_result != cudaSuccess) throw std::runtime_error{fmt::format("C:/Users/ethan/AppData/Local/Temp/pip-req-build-wnrv1xax/include\\tiny-cuda-nn/gpu_memory.h" ":" "123" " " "cudaMallocManaged((void**)&rawptr, n_bytes+DEBUG_GUARD_SIZE*2)" " failed: {}", cudaGetErrorString(_result))}; } while(0) ;
+                                                                                                                                                                     ^
+  C:\Users\ethan\AppData\Local\Temp\pip-req-build-wnrv1xax\dependencies\fmt\include\fmt\core.h(344): note #2703-D: cannot call non-constexpr function "fmt::v9::detail::ignore_unused(const T &...) [with T=<__nv_bool>]" (declared at line 339 of C:\Users\ethan\AppData\Local\Temp\pip-req-build-wnrv1xax\dependencies\fmt\include\fmt\core.h)
+      ignore_unused(default_value);
+      ^
+  C:\Users\ethan\AppData\Local\Temp\pip-req-build-wnrv1xax\dependencies\fmt\include\fmt\core.h(452): note #2693-D: called from:
+                                      !detail::is_constant_evaluated(true))
+                                                                    ^
+  C:\Users\ethan\AppData\Local\Temp\pip-req-build-wnrv1xax\dependencies\fmt\include\fmt\core.h(3105): note #2693-D: called from:
+      consteval inline basic_format_string(const S& s) : str_(s) {
+                       ^
+            detected during:
+              instantiation of "fmt::v9::basic_format_string<Char, Args...>::basic_format_string(fmt::v9::basic_runtime<Char>) [with Char=char, Args=<std::string, std::string>]" at line 59 of C:/Users/ethan/AppData/Local/Temp/pip-req-build-wnrv1xax/include\tiny-cuda-nn/common_host.h
+              instantiation of "void tcnn::log(tcnn::LogSeverity, const std::string &, Ts &&...) [with Ts=<std::string, std::string>]" at line 63 of C:/Users/ethan/AppData/Local/Temp/pip-req-build-wnrv1xax/include\tiny-cuda-nn/common_host.h
+              instantiation of "void tcnn::log_debug(const std::string &, Ts &&...) [with Ts=<std::string, std::string>]" at line 539
+
+  C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.44.35207/include\functional(880): error: call to consteval function "std::invoke(_Callable &&, _Ty1 &&, _Types2 &&...)->decltype((<expression>)) [with _Callable=lambda [](tcnn::LogSeverity, const std::string &)->void &, _Ty1=tcnn::LogSeverity, _Types2=<const std::string &>]" did not produce a valid constant expression
+                (void) ::std:: invoke(_Callee, ::std:: forward<_Types>(_Args)...);
+                                     ^
+  Note #2767-D: the value of *this cannot be used as a constant
+            detected during:
+              instantiation of "_Rx std::_Func_impl_no_alloc<_Callable, _Rx, _Types...>::_Do_call(_Types &&...) [with _Callable=lambda [](tcnn::LogSeverity, const std::string &)->void, _Rx=void, _Types=<tcnn::LogSeverity, const std::string &>]" at line 855
+              instantiation of "std::_Func_impl_no_alloc<_Callable, _Rx, _Types...>::_Func_impl_no_alloc(_Other &&) [with _Callable=lambda [](tcnn::LogSeverity, const std::string &)->void, _Rx=void, _Types=<tcnn::LogSeverity, const std::string &>, _Other=lambda [](tcnn::LogSeverity, const std::string &)->void, <unnamed>=0]" at line 978
+              instantiation of "void std::_Func_class<_Ret, _Types...>::_Reset(_Fx &&) [with _Ret=void, _Types=<tcnn::LogSeverity, const std::string &>, _Fx=lambda [](tcnn::LogSeverity, const std::string &)->void]" at line 1106
+              instantiation of "std::function<_Fty>::function(_Fx &&) [with _Fty=void (tcnn::LogSeverity, const std::string &), _Fx=lambda [](tcnn::LogSeverity, const std::string &)->void, <unnamed>=0]" at line 46 of C:\Users\ethan\AppData\Local\Temp\pip-req-build-wnrv1xax\src\common_host.cu
+
+  4 errors detected in the compilation of "C:/Users/ethan/AppData/Local/Temp/pip-req-build-wnrv1xax/src/common_host.cu".
+  nvcc warning : incompatible redefinition for option 'std', the last value of this option was used
+  nvcc warning : incompatible redefinition for option 'std', the last value of this option was used
+  common_host.cu
+  ninja: build stopped: subcommand failed.
+  Traceback (most recent call last):
+    File "C:\Users\ethan\miniconda3\envs\video_to_world_cuda132\lib\site-packages\torch\utils\cpp_extension.py", line 2906, in _run_ninja_build
+      subprocess.run(
+    File "C:\Users\ethan\miniconda3\envs\video_to_world_cuda132\lib\subprocess.py", line 526, in run
+      raise CalledProcessError(retcode, process.args,
+  subprocess.CalledProcessError: Command '['ninja', '-v', '-j', '1']' returned non-zero exit status 1.
+
+  The above exception was the direct cause of the following exception:
+
+  Traceback (most recent call last):
+    File "C:\Users\ethan\miniconda3\envs\video_to_world_cuda132\lib\site-packages\pip\_vendor\pyproject_hooks\_in_process\_in_process.py", line 389, in <module>
+      main()
+    File "C:\Users\ethan\miniconda3\envs\video_to_world_cuda132\lib\site-packages\pip\_vendor\pyproject_hooks\_in_process\_in_process.py", line 373, in main
+      json_out["return_val"] = hook(**hook_input["kwargs"])
+    File "C:\Users\ethan\miniconda3\envs\video_to_world_cuda132\lib\site-packages\pip\_vendor\pyproject_hooks\_in_process\_in_process.py", line 280, in build_wheel
+      return _build_backend().build_wheel(
+    File "C:\Users\ethan\miniconda3\envs\video_to_world_cuda132\lib\site-packages\setuptools\build_meta.py", line 441, in build_wheel
+      return _build(['bdist_wheel', '--dist-info-dir', str(metadata_directory)])
+    File "C:\Users\ethan\miniconda3\envs\video_to_world_cuda132\lib\site-packages\setuptools\build_meta.py", line 429, in _build
+      return self._build_with_temp_dir(
+    File "C:\Users\ethan\miniconda3\envs\video_to_world_cuda132\lib\site-packages\setuptools\build_meta.py", line 410, in _build_with_temp_dir
+      self.run_setup()
+    File "C:\Users\ethan\miniconda3\envs\video_to_world_cuda132\lib\site-packages\setuptools\build_meta.py", line 520, in run_setup
+      super().run_setup(setup_script=setup_script)
+    File "C:\Users\ethan\miniconda3\envs\video_to_world_cuda132\lib\site-packages\setuptools\build_meta.py", line 317, in run_setup
+      exec(code, locals())
+    File "<string>", line 246, in <module>
+    File "C:\Users\ethan\miniconda3\envs\video_to_world_cuda132\lib\site-packages\setuptools\__init__.py", line 117, in setup
+      return distutils.core.setup(**attrs)  # type: ignore[return-value]
+    File "C:\Users\ethan\miniconda3\envs\video_to_world_cuda132\lib\site-packages\setuptools\_distutils\core.py", line 186, in setup
+      return run_commands(dist)
+    File "C:\Users\ethan\miniconda3\envs\video_to_world_cuda132\lib\site-packages\setuptools\_distutils\core.py", line 202, in run_commands
+      dist.run_commands()
+    File "C:\Users\ethan\miniconda3\envs\video_to_world_cuda132\lib\site-packages\setuptools\_distutils\dist.py", line 1000, in run_commands
+      self.run_command(cmd)
+    File "C:\Users\ethan\miniconda3\envs\video_to_world_cuda132\lib\site-packages\setuptools\dist.py", line 1107, in run_command
+      super().run_command(command)
+    File "C:\Users\ethan\miniconda3\envs\video_to_world_cuda132\lib\site-packages\setuptools\_distutils\dist.py", line 1019, in run_command
+      cmd_obj.run()
+    File "C:\Users\ethan\miniconda3\envs\video_to_world_cuda132\lib\site-packages\setuptools\command\bdist_wheel.py", line 370, in run
+      self.run_command("build")
+    File "C:\Users\ethan\miniconda3\envs\video_to_world_cuda132\lib\site-packages\setuptools\_distutils\cmd.py", line 341, in run_command
+      self.distribution.run_command(command)
+    File "C:\Users\ethan\miniconda3\envs\video_to_world_cuda132\lib\site-packages\setuptools\dist.py", line 1107, in run_command
+      super().run_command(command)
+    File "C:\Users\ethan\miniconda3\envs\video_to_world_cuda132\lib\site-packages\setuptools\_distutils\dist.py", line 1019, in run_command
+      cmd_obj.run()
+    File "C:\Users\ethan\miniconda3\envs\video_to_world_cuda132\lib\site-packages\setuptools\_distutils\command\build.py", line 135, in run
+      self.run_command(cmd_name)
+    File "C:\Users\ethan\miniconda3\envs\video_to_world_cuda132\lib\site-packages\setuptools\_distutils\cmd.py", line 341, in run_command
+      self.distribution.run_command(command)
+    File "C:\Users\ethan\miniconda3\envs\video_to_world_cuda132\lib\site-packages\setuptools\dist.py", line 1107, in run_command
+      super().run_command(command)
+    File "C:\Users\ethan\miniconda3\envs\video_to_world_cuda132\lib\site-packages\setuptools\_distutils\dist.py", line 1019, in run_command
+      cmd_obj.run()
+    File "C:\Users\ethan\miniconda3\envs\video_to_world_cuda132\lib\site-packages\setuptools\command\build_ext.py", line 97, in run
+      _build_ext.run(self)
+    File "C:\Users\ethan\miniconda3\envs\video_to_world_cuda132\lib\site-packages\setuptools\_distutils\command\build_ext.py", line 367, in run
+      self.build_extensions()
+    File "C:\Users\ethan\miniconda3\envs\video_to_world_cuda132\lib\site-packages\torch\utils\cpp_extension.py", line 1294, in build_extensions
+      super().build_extensions()
+    File "C:\Users\ethan\miniconda3\envs\video_to_world_cuda132\lib\site-packages\setuptools\_distutils\command\build_ext.py", line 483, in build_extensions
+      self._build_extensions_serial()
+    File "C:\Users\ethan\miniconda3\envs\video_to_world_cuda132\lib\site-packages\setuptools\_distutils\command\build_ext.py", line 509, in _build_extensions_serial
+      self.build_extension(ext)
+    File "C:\Users\ethan\miniconda3\envs\video_to_world_cuda132\lib\site-packages\setuptools\command\build_ext.py", line 262, in build_extension
+      _build_ext.build_extension(self, ext)
+    File "C:\Users\ethan\miniconda3\envs\video_to_world_cuda132\lib\site-packages\setuptools\_distutils\command\build_ext.py", line 564, in build_extension
+      objects = self.compiler.compile(
+    File "C:\Users\ethan\miniconda3\envs\video_to_world_cuda132\lib\site-packages\torch\utils\cpp_extension.py", line 1263, in win_wrap_ninja_compile
+      _write_ninja_file_and_compile_objects(
+    File "C:\Users\ethan\miniconda3\envs\video_to_world_cuda132\lib\site-packages\torch\utils\cpp_extension.py", line 2487, in _write_ninja_file_and_compile_objects
+      _run_ninja_build(
+    File "C:\Users\ethan\miniconda3\envs\video_to_world_cuda132\lib\site-packages\torch\utils\cpp_extension.py", line 2923, in _run_ninja_build
+      raise RuntimeError(message) from e
+  RuntimeError: Error compiling objects for extension
+  error: subprocess-exited-with-error
+  
+  Building wheel for tinycudann (pyproject.toml) did not run successfully.
+  exit code: 1
+  
+  No available output.
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+  full command: 'C:\Users\ethan\miniconda3\envs\video_to_world_cuda132\python.exe' 'C:\Users\ethan\miniconda3\envs\video_to_world_cuda132\lib\site-packages\pip\_vendor\pyproject_hooks\_in_process\_in_process.py' build_wheel 'C:\Users\ethan\AppData\Local\Temp\tmphkua_nhj'
+  cwd: C:\Users\ethan\AppData\Local\Temp\pip-req-build-wnrv1xax\bindings\torch
+  Building wheel for tinycudann (pyproject.toml): finished with status 'error'
+  ERROR: Failed building wheel for tinycudann
+Failed to build tinycudann
+error: failed-wheel-build-for-install
+
+Failed to build installable wheels for some pyproject.toml based projects
+
+tinycudann
